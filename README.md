@@ -23,9 +23,9 @@ This work is to be submitted in a journal or a conference, and the all of the so
         
     - **Not Recommend.** Run the testing script with the command line as follows. This requires to specify the checkpoint file.
     
-    ```python
-    python main/test.py -c [YOUR MODEL SETTING] -ck [YOUR MODEL CHECKPOINT]
-    ```
+        ```python
+        python main/test.py -c [YOUR MODEL SETTING] -ck [YOUR MODEL CHECKPOINT]
+        ```
 
 4. The training logs and the trained models are in the [`result`](./result/) folders.
 
