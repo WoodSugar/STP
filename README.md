@@ -50,19 +50,19 @@ Total result files are more than 60GB and cannot be uploaded to GitHub or any ot
 Thus only partial results are provided on Google Drive [here](https://drive.google.com/drive/folders/1mmesNYG_iaQ3LNavQejEEhpgXc780dZM?usp=drive_link) (about 1.5GB) as follows.
 
 ### Re-investigation on current methods
-* Resutls of feature normalization on LR as baseline. 
+* Results of feature normalization on LR as baseline. 
     
     Path: [`result/compare_model/LR`](./result/compare_model/LR)
 
-* Resutls of feature normalization on MLP as baseline. 
+* Results of feature normalization on MLP as baseline. 
 
     Path: [`result/compare_model/MLP`](./result/compare_model/MLP)
 
-* Resutls of replacing the adjacency matrix on STSGCN as baseline. 
+* Results of replacing the adjacency matrix on STSGCN as baseline. 
 
     Path: [`result/compare_model/STSGCN`](./result/compare_model/STSGCN)
 
-* Resutls of replacing the adjacency matrix on STFGNN as baseline.
+* Results of replacing the adjacency matrix on STFGNN as baseline.
     
     Path: [`result/compare_model/STFGNN`](./result/compare_model/STFGNN)
 
