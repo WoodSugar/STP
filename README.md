@@ -11,7 +11,8 @@ This work is to be submitted in a journal or a conference, and the all of the so
     - Model structure is in [`compare_model`](./compare_model/) folder.
     - Model settings are in [`model_setting`](./model_setting/) folder, where baselines are in the [`compare_method`](./model_setting/compare_method/) folder and the STP enhanced models are in the [`hyper_method`](./model_setting/hyper_method/) folder.
 
-3. 
+3. Training and testing scripts has two options:
+    - run the 
 
 ## We are going to provide the following information for better reproducing
 1. Necessary packages for running the code 
@@ -21,12 +22,5 @@ This work is to be submitted in a journal or a conference, and the all of the so
 5. Tesing scripts and results
 
 
-## Necessary packages for running the code
-
-## Model settings for reproducing the results
-
-## Training logs and scripts
-
-## Trained models for reproducing the results
-
-## Tesing scripts and results
+Acknowledgement
+We appreciate the [EasyTorch](https://github.com/cnstark/easytorch) and [BasicTS](https://github.com/zezhishao/BasicTS) toolboxes to support this work.
