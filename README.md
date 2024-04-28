@@ -24,7 +24,7 @@ This work is to be submitted in a journal or a conference, and the all of the so
         - training log (`training_log_*.log`)
         - evaluation results(`validate_result_*.log`)
 
-4. Training and testing scripts has two options:
+4. Training and testing scripts have two options:
     - **Recommend.** Run the training script with the command line as follows. This contains three functions: 
         - Train the model from scratch. 
         - Resume training if not finished with the last epoch. 
@@ -39,7 +39,7 @@ This work is to be submitted in a journal or a conference, and the all of the so
         ```python
         python main/test.py -c [YOUR MODEL SETTING] -ck [YOUR MODEL CHECKPOINT]
         ```
-        - You can replace the option `[YOUR MODEL CHECKPOINT]` with the corresponding checkpoint file name such as `*_best_val_MAE.pt`.
+        - You can replace the option `[YOUR MODEL CHECKPOINT]` with the corresponding checkpoint file path such as `FILE_PATH/*_best_val_MAE.pt`.
 
 
 
@@ -66,7 +66,7 @@ Thus only partial results are provided on Google Drive [here](https://drive.goog
     
     Path: [`result/compare_model/STFGNN`](./result/compare_model/STFGNN)
 
-### Efficacy of STP as both plug-in tool and substitution of GCNs on advanced methods. 
+### Efficacy of STP as both plug-in tool and substitution of GCNs on advanced methods
 
 * Results of STP as plug-in tool and ablation studies on LR.
 
