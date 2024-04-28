@@ -1,7 +1,7 @@
 # STP
 Source Code the proposed Spatio-Temporal Propagation (STP) module.
 
-This work is to be submitted in a journal or a conference, and the all of the source codes are being updated.
+This work is to be submitted in a journal or a conference, and all of the source codes are being updated.
 
 ## We have provided the following information for better reproducing
 1. Pre-processed dataset which is publicly available on Google Drive [here](https://drive.google.com/drive/folders/1P05v64MnhEM1arhJA-DjpmeHainqrvaN?usp=drive_link)
@@ -15,7 +15,7 @@ This work is to be submitted in a journal or a conference, and the all of the so
 3. Training logs, trained models, and evaluation results of partial methods are stored on Google Drive [here](https://drive.google.com/drive/folders/1mmesNYG_iaQ3LNavQejEEhpgXc780dZM?usp=drive_link) (about 1.5GB).
 
     - Please download and unzip the `result.zip` file and put them in the [`result`](./result/) folder. 
-    - The following files are avalible on each experiment folder:
+    - The following files are available on each experiment folder:
         - tensorboard logs (`tensorboard/` folder)
         - identity config file (`cfg.txt`)
         - last epoch model (`*_[MAX_EPOCH].pt`)
