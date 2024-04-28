@@ -5,11 +5,13 @@ This work is to be submitted in a journal or a conference, and the all of the so
 
 ## We have provided the following information for better reproducing
 1. Preprocessed dataset which is publicly available on Google Drive [here](https://drive.google.com/drive/folders/1P05v64MnhEM1arhJA-DjpmeHainqrvaN?usp=drive_link)
-    - After downloading the dataset, please put the data into the [`dataset`](./dataset/) folder.
-    - One can query the description file in [`dataset_describe`](./dataset_describe/) folder to know the data format.
+    - Put the downloaded data into the [`dataset`](./dataset/) folder.
+    - Query the description file in [`dataset_describe`](./dataset_describe/) folder to know the data format.
 2. All the training settings for reproducing the results
-    - Training settings can be referred in [`model_setting`](./model_setting/) folder.
-    - 
+    - Model structure is in [`compare_model`](./compare_model/) folder.
+    - Model settings are in [`model_setting`](./model_setting/) folder, where baselines are in the [`compare_method`](./model_setting/compare_method/) folder and the STP enhanced models are in the [`hyper_method`](./model_setting/hyper_method/) folder.
+
+3. 
 
 ## We are going to provide the following information for better reproducing
 1. Necessary packages for running the code 
