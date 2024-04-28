@@ -12,7 +12,23 @@ This work is to be submitted in a journal or a conference, and the all of the so
     - Model settings are in [`model_setting`](./model_setting/) folder, where baselines are in the [`compare_method`](./model_setting/compare_method/) folder and the STP enhanced models are in the [`hyper_method`](./model_setting/hyper_method/) folder.
 
 3. Training and testing scripts has two options:
-    - run the 
+    - **Recommend.** Run the training script with the command line as follows. This contains three functions: 
+    (1) Train the model from scratch. 
+    (2) Resume  training process from the checkpoint if not finished with the last epoch. 
+    (3) Test the best model from the checkpoint file if exists.
+
+        ```python
+        python main/train.py -c [YOUR MODEL SETTING]
+        ```
+        
+    - **Not Recommend.** Run the testing script with the command line as follows. This requires to specify the checkpoint file.
+    
+    ```python
+    python main/test.py -c [YOUR MODEL SETTING] -ck [YOUR MODEL CHECKPOINT]
+    ```
+
+4. The training logs and the trained models are in the [`result`](./result/) folders.
+
 
 ## We are going to provide the following information for better reproducing
 1. Necessary packages for running the code 
@@ -22,5 +38,5 @@ This work is to be submitted in a journal or a conference, and the all of the so
 5. Tesing scripts and results
 
 
-Acknowledgement
+## Acknowledgement
 We appreciate the [EasyTorch](https://github.com/cnstark/easytorch) and [BasicTS](https://github.com/zezhishao/BasicTS) toolboxes to support this work.
