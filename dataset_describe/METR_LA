@@ -1,0 +1,17 @@
+{
+    "folder": "dataset/METR_LA",
+    
+    "ori_graph_file": "adj_METR_LA.pkl",
+    "graph_file": "graph.npy",
+    "speed_file": "METR_LA.h5",
+    "num_nodes": 207,
+    "divide_days": [63, 28, 28],
+    "one_day_range": [6, 22],
+    "time_interval": 5,
+    "merge_num": 2,
+    "input_dim": 1,
+    "src_len": 6,
+    "trg_len": 6,
+    "pretrain_src_len": 288,
+    "pretrain_trg_len": 6
+}

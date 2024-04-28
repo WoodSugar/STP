@@ -1,0 +1,17 @@
+{
+    "folder": "dataset/LargeST_SD",
+    
+    "ori_graph_file": "adj_SD.npy",
+    "graph_file": "graph.npy",
+    "flow_file": "SD.h5",
+    "num_nodes": 716,
+    "divide_days": [253, 56, 56],
+    "one_day_range": [6, 22],
+    "time_interval": 15,
+    "merge_num": 1,
+    "input_dim": 1,
+    "src_len": 8,
+    "trg_len": 8,
+    "pretrain_src_len": 192,
+    "pretrain_trg_len": 8
+}

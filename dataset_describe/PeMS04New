@@ -1,0 +1,16 @@
+{
+    "folder": "dataset/PeMS04New",
+    "ori_graph_file": "adj_PEMS04.pkl",
+    "graph_file": "graph.npy",
+    "flow_file": "PeMS04.npz",
+    "num_nodes": 307,
+    "divide_days": [31, 14, 14],
+    "one_day_range": [6, 22],
+    "time_interval": 5,
+    "merge_num": 2,
+    "input_dim": 1,
+    "src_len": 6,
+    "trg_len": 6,
+    "pretrain_src_len": 288,
+    "pretrain_trg_len": 6
+}
