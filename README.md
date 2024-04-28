@@ -5,7 +5,11 @@ This work is to be submitted in a journal or a conference, and the all of the so
 
 ## We have provided the following information for better reproducing
 1. Preprocessed dataset which is publicly available on Google Drive [here](https://drive.google.com/drive/folders/1P05v64MnhEM1arhJA-DjpmeHainqrvaN?usp=drive_link)
-
+    - After downloading the dataset, please put the data into the [`dataset`](./dataset/) folder.
+    - One can query the description file in [`dataset_describe`](./dataset_describe/) folder to know the data format.
+2. All the training settings for reproducing the results
+    - Training settings can be referred in [`model_setting`](./model_setting/) folder.
+    - 
 
 ## We are going to provide the following information for better reproducing
 1. Necessary packages for running the code 
