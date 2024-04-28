@@ -45,9 +45,7 @@ This work is to be submitted in a journal or a conference, and the all of the so
 
 ## We have directly released the following results (Stored on Google Drive)
 
-Total result files are more than 60GB and cannot be uploaded to GitHub or any other online storage. 
-
-Thus only partial results are provided on Google Drive [here](https://drive.google.com/drive/folders/1mmesNYG_iaQ3LNavQejEEhpgXc780dZM?usp=drive_link) (about 1.5GB) as follows.
+Total result files are more than 60GB and cannot be uploaded to GitHub or any other online storage. Thus only partial results are provided on Google Drive [here](https://drive.google.com/drive/folders/1mmesNYG_iaQ3LNavQejEEhpgXc780dZM?usp=drive_link) (about 1.5GB) as follows. Please follow the above [guidance](#we-have-provided-the-following-information-for-better-reproducing) to get the released results.
 
 ### Re-investigation on current methods
 * Results of feature normalization on LR as baseline. 
